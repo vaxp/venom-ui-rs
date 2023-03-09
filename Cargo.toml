@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/venom-core",
+    "crates/venom-render",
+    "crates/venom-widgets",
+    "crates/venom-app",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["VenomUI Team"]
+repository = "https://github.com/venom-ui/venom-ui-rs"
+
+[workspace.dependencies]
+# Internal crates
+venom-core = { path = "crates/venom-core" }

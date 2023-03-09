@@ -1,0 +1,12 @@
+[package]
+name = "venom-widgets"
+description = "Widget system and layout engine for VenomUI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+venom-core = { path = "../venom-core" }
+venom-render = { path = "../venom-render" }
+
+[dev-dependencies]

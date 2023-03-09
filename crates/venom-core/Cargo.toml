@@ -1,0 +1,10 @@
+[package]
+name = "venom-core"
+description = "Core types and primitives for VenomUI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+
+[dev-dependencies]

@@ -1,0 +1,21 @@
+[package]
+name = "venom-app"
+description = "Window and application management for VenomUI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[features]
+default = ["winit-app"]
+winit-app = ["winit", "softbuffer"]
+
+[dependencies]
+venom-core = { path = "../venom-core" }
+venom-render = { path = "../venom-render" }
+venom-widgets = { path = "../venom-widgets" }
+
+# Window management
+winit = { version = "0.30", optional = true }
+softbuffer = { version = "0.4", optional = true }
+
+[dev-dependencies]

@@ -1,6 +1,10 @@
 # VenomUI-RS Documentation
 
-Welcome to VenomUI-RS - a Flutter-like declarative UI framework in pure Rust.
+> [!NOTE]
+> **Experimental Prototype in Rust:**  
+> A great experiment and solid foundation for exploring UI framework design in Rust. This repository has been officially discontinued after completing all experiments in Rust and was not adopted for the final framework. C++ was chosen instead for the primary framework: **[ENKI](https://github.com/vaxp/enki)**.
+
+Welcome to VenomUI-RS - an experimental declarative UI framework in pure Rust.
 
 ## Quick Start
 
